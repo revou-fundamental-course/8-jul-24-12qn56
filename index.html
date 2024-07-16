@@ -3,25 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BMI Calculator</title>
+  <title>Kalkulator BMI</title>
 
-  <!-- Stylesheet CSS-->
-  <link rel="stylesheet" href="css/style.css">
+  <!-- CSS Stylesheet -->
+  <link rel="Stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <!-- Header Start -->
-  <header>
-    <h1>BMI Calculator</h1>
-  </header>
-  <!-- Header End -->
+  <div class="row">
+      <!-- Main Section Start-->
+      <div class="main">
 
-    <main>
-      <!-- Left Section Start-->
-      <div class="left">
+      <!-- Header Start -->
+      <header>
+        <h1>Kalkulator BMI</h1>
+      </header>
+      <!-- Header End -->
+
       <!-- Main Article Start -->
       <article>
-        <p>Lorem ipsum dolor quos odio totam facere vero architecto temporibus ducimus suscipit dolorem nesciunt saepe, alias quasi quisquam illo deserunt.</p>
+        <p>Berat badan ideal adalah impian semua orang. Tidak hanya memiliki bentuk tubuh yang menunjang penampilan, berat badan ideal juga menandakan kondisi tubuh yang sehat. Bagaimana denganmu? Yuk, hitung sekarang di kalkulator BMI.</p>
       </article>
       <!-- Main Article End -->
 
@@ -29,27 +30,28 @@
       <section>
         <form>
           <div>
-          <input type="radio" id="selection-men"><label for="selection-men">Laki-Laki</label>
-          <input type="radio" id="selection-woman"><label for="selection-woman">Perempuan</label>
+          <label class="formText"><strong>Jenis Kelamin</strong></label><br>
+          <input type="radio" name="radAnswer" id="selection-men"><label for="selection-men">Laki-Laki</label>
+          <input type="radio" name="radAnswer" id="selection-woman"><label for="selection-woman">Perempuan</label>
           </div>
 
           <div>
-            <label for="input-berat-badan">Berat Badan (kg)</label>
+            <label class="formText" for="input-berat-badan"><strong>Badan (kg)</strong></label><br>
             <input type="number" id="input-berat-badan">
           </div> 
 
           <div>
-            <label for="input-usia">Usia (th)</label>
+            <label class="formText" for="input-usia"><strong>Usia (th)</strong></label><br>
             <input type="number" id="input-usia">
           </div> 
           
           <div>
-            <label for="input-tinggi-badan">Tinggi Badan (cm)</label>
+            <label class="formText" for="input-tinggi-badan"><strong>Tinggi Badan (cm)</strong></label><br>
             <input type="number" id="input-tinggi-badan">
           </div> 
 
-          <button>Submit</button>
-          <button>Reset</button>
+          <button class="btn-submit">Submit</button>
+          <button class="btn-reset">Reset</button>
         </form>
       </section>
       <!-- Form End -->
@@ -61,32 +63,34 @@
 
       <article>
         <ol>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>Menghitung berat badan</li>
+          <li>Menentukan kategori berat badan ideal atau tidak</li>
+          <li>Mempersiapkan program penurunan berat badan</li>
         </ol>
 
-        <p>Lorem ipsum dolor sit</p>
+        <p>Kalkulator ini hanya boleh digunakan oleh orang dewasa (wanita hamil atau menyusui tidak boleh mengandalkan pembacaan BMI ini) dan tidak ada tindakan yang harus diambil berdasarkan nilainya selain berkonsultasi dengan orang yang memenuhi syarat seperti dokter.</p>
 
-        <br>
 
-        <p>Lorem ipsum dolor sit amet consectetur</p>
+        <p>Kalkulator akan memberi Anda gambaran tentang perbandingan berat badan Anda dengan nilai umum. Indeks Massa Tubuh (atau BMI) dihitung sebagai berat badan Anda (dalam kilogram) dibagi dengan kuadrat tinggi badan Anda (dalam meter) atau BMI = Kg/M2.</p>
       </article>
       <!-- Form Article End -->
       </div>
-      <!-- Left Section End-->
+      <!-- Main Section End-->
 
-      <!-- Right Section Start-->
-      <div class="right">
+
+
+
+      <!-- Side Section Start-->
+      <div class="side">
       <!-- Results Article Start-->
       <article>
         <header>
-          <h1>Result</h1>
+          <h2>Hasil</h2>
         </header>
 
         <!-- Results Section Start-->
         <section>
-          <p>Hasil Result Adalah:</p>
+          <p>Berat Badan Lebih</p>
 
           <h2>24.7</h2>
 
@@ -104,7 +108,13 @@
       </article>
       <!-- Results Article End-->
       </div>
-      <!-- Right Section Start-->
-    </main>
+      <!-- Side Section Start-->
+  </div>
+  
+  <!-- Footer Start-->
+  <footer>
+    <p>Copyright 	&copy; </p>
+  </footer>
+  <!-- Footer End-->
 </body>
 </html>
