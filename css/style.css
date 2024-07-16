@@ -1,1 +1,27 @@
 /* ini css */
+
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+}
+
+.left{
+  -ms-flex: 50%;
+  flex: 50%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.right{
+  -ms-flex: 50%;
+  flex: 50%;
+  background-color: white;
+  padding: 20px;
+}
