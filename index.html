@@ -7,6 +7,9 @@
 
   <!-- CSS Stylesheet -->
   <link rel="Stylesheet" href="css/style.css">
+
+  <!-- Javascript -->
+  <script src="js/script.js"></script>
 </head>
 <body>
 
@@ -50,7 +53,7 @@
             <input type="number" id="input-tinggi-badan">
           </div> 
 
-          <button class="btn-submit">Submit</button>
+          <button class="btn-submit" type="button" onclick="calculate();">Submit</button>
           <button class="btn-reset">Reset</button>
         </form>
       </section>
@@ -92,7 +95,7 @@
         <section>
           <p>Berat Badan Lebih</p>
 
-          <h2>24.7</h2>
+          <h2><span id="calcResultH2"></h2>
 
           <p>Anda Memiliki Berat Badan Berlebih</p>
         </section>
