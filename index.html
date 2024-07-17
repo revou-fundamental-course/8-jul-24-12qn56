@@ -12,7 +12,15 @@
   <script src="js/script.js"></script>
 </head>
 <body>
+  <!-- Navbar Start-->
+  <nav>
+    <a href="#">Kalkulator.net</a>
+    <a href="#" class="right">Other</a>
+    <a href="#" class="right active">Health</a>
+    <a href="#" class="right">Fitness</a>
+  </nav>
 
+  <!-- Row Start-->
   <div class="row">
       <!-- Main Section Start-->
       <div class="main">
@@ -21,13 +29,11 @@
       <header>
         <h1>Kalkulator BMI</h1>
       </header>
-      <!-- Header End -->
 
       <!-- Main Article Start -->
       <article>
         <p>Berat badan ideal adalah impian semua orang. Tidak hanya memiliki bentuk tubuh yang menunjang penampilan, berat badan ideal juga menandakan kondisi tubuh yang sehat. Bagaimana denganmu? Yuk, hitung sekarang di kalkulator BMI.</p>
       </article>
-      <!-- Main Article End -->
 
       <!-- Form Start -->
       <section>
@@ -57,7 +63,6 @@
           <button class="btn-reset">Reset</button>
         </form>
       </section>
-      <!-- Form End -->
 
       <!-- From Article Start -->
       <article>
@@ -76,19 +81,15 @@
 
         <p>Kalkulator akan memberi Anda gambaran tentang perbandingan berat badan Anda dengan nilai umum. Indeks Massa Tubuh (atau BMI) dihitung sebagai berat badan Anda (dalam kilogram) dibagi dengan kuadrat tinggi badan Anda (dalam meter) atau BMI = Kg/M2.</p>
       </article>
-      <!-- Form Article End -->
       </div>
-      <!-- Main Section End-->
-
-
 
 
       <!-- Side Section Start-->
       <div class="side">
       <!-- Results Article Start-->
-      <article style="margin-left: 30%; text-align: center;">
+      <article class="result-article">
         <header>
-          <h2 style="text-align: left;">Hasil</h2>
+          <h2 class="result-h2">Hasil BMI</h2>
         </header>
 
         <!-- Results Section Start-->
@@ -97,26 +98,20 @@
 
           <h2><span id="calcResultH2"></h2>
 
-          <p>Anda Memiliki Berat Badan <span id="calcSituationP"></p>
+          <p><span id="calcSituationP"></p>
         </section>
-        <!-- Results Section End-->
 
         <!-- Results Article Start-->
         <article></article>
-        <!-- Results Article Start-->
 
         <!-- General Information Start-->
         <section></section>
-        <!-- General Information Start-->
       </article>
-      <!-- Results Article End-->
       </div>
-      <!-- Side Section Start-->
   </div>
-        <!-- Footer Start-->
+      <!-- Footer Start-->
       <footer>
         <p>Copyright 	&copy; </p>
       </footer>
-      <!-- Footer End-->
 </body>
 </html>
