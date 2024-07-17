@@ -13,4 +13,5 @@ if (number1 != null && number2 != null){
   calcResult = number1 / sqHeight;
   document.getElementById("calcResultH2").innerHTML = calcResult;
 }
+
 }
